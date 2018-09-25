@@ -1,2 +1,2 @@
 # release: bin/amber db migrate
-web: app
+web: ./app
