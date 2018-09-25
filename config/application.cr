@@ -20,7 +20,6 @@ require "../src/controllers/**"
 # > Important! Yaml configurations are first class citizen and are loaded first before
 # this file, we recommend to use yaml configurations before changing any settings here.
 # Any uncommented setting here will override the YAML with the value set here.
-
 Amber::Server.configure do |settings|
   # Use your environment variables settings here.
   #
