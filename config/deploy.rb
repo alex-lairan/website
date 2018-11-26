@@ -2,7 +2,7 @@
 lock "~> 3.11.0"
 
 set :application, "alexandre_lairan"
-set :repo_url, "git@github.com:alex-lairan/website.git"
+set :repo_url, "https://github.com/alex-lairan/website.git"
 set :deploy_to, -> { "/data/#{fetch(:application)}" }
 
 set :ssh_options, {
